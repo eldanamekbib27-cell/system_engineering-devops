@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A bash script that displays your Bash PID
+# A bash script that displays your Bash PID.
 
 # Task: List Bash Processes
 #shellcheck disable=SC2009
