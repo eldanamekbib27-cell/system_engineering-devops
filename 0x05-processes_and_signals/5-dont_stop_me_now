@@ -5,7 +5,7 @@ PID=$(pgrep -x "4-to_infinity_and_beyond")
 
 #check if the PID was found 
 if [ -n "$PID" ]; then 
-  kill "$PID"
+  pkill "$PID"
   echo "Process 4-to_infinity_and_beyond (PID: $PID) has been terminated."
 else 
   echo "Process 4-to_infinity_and_beyond not found."
