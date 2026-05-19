@@ -2,6 +2,7 @@
 # A bash script that prints "Best School" 10 ten times using until loop.
 
 i=1
+
 until [ $i -gt 10]
 do
   echo "Best School"
